@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.TextFlow?>
+
+<TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label prefHeight="24.0" prefWidth="223.0" text="You need fill Area &quot;Your function&quot; " />
+      <Label prefHeight="24.0" prefWidth="55.0" text="like this:" />
+      <Label prefHeight="16.0" prefWidth="211.0" text="cos(x)*cos(x)+sin(x)*sin(x)" />
+      <Label prefHeight="16.0" prefWidth="220.0" text="This programm provide some" />
+      <Label prefHeight="16.0" prefWidth="118.0" text=" math functions: " />
+      <Label prefHeight="16.0" prefWidth="414.0" text="cos(x) ; sin(x) ;tan(x) ;ln(x); +,-,/,*,()" />
+      <Label prefHeight="16.0" prefWidth="141.0" text="Warning!!!" textFill="#dd0707" />
+      <Label prefHeight="16.0" prefWidth="317.0" text="You can use only one variable: &quot;x&quot;" />
+      <Label prefHeight="16.0" prefWidth="144.0" text="Example:" />
+      <ImageView fitHeight="291.0" fitWidth="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../graph.png" />
+         </image>
+      </ImageView>
+   </children>
+</TextFlow>
